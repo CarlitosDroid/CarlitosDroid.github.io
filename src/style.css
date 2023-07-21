@@ -1,0 +1,104 @@
+html {
+
+    --image-gradient: linear-gradient(to bottom left,
+            rgba(17, 16, 16, 0.678),
+            rgba(12, 10, 22, 0.863));
+
+}
+
+
+
+/******** Navbar Section *********/
+
+.sticky {
+    background-color: #1b1a2ea9 !important;
+    transition: all 0.3s ease-out 0s !important;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+.navbar {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    padding: 0.3rem 2rem !important;
+    font-size: 1.2rem !important;
+}
+
+.logo {
+    height: 1.4em !important;
+    width: 2.5em !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.nav-link {
+    padding: 0.8rem 1rem !important;
+}
+
+.navbar-toggler {
+    position: relative !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-color: #ffffff !important;
+}
+
+
+/******** Home Section *********/
+
+.home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./assets/home-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
+
+.home-content {
+    padding: 9rem 0 2rem !important;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.home-header {
+    padding-top: 80px !important;
+}
+
+.heading {
+    font-size: 2.4em !important;
+    padding-left: 50px !important;
+}
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+.main-name {
+    color: #04ff85;
+}
+
+.Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: #04ff85 !important;
+    font-weight: 600 !important;
+}
+
+.Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #7b7a7a !important;
+}
+
+/*******************************/
