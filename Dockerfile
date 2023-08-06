@@ -1,3 +1,4 @@
+# STAGE 1: Build ###
 FROM node:lts-alpine as builder
 
 # by only copying package.json, before running npm install. We can leverage dockers caching strategy for steps. Otherwise docker needs to run npm install every time you change any of the code.
@@ -11,6 +12,8 @@ COPY . .
 RUN npm run build
 
 
+
+# STAGE 2: Run ###
 FROM nginx:alpine
 
 # copy the .conf template
