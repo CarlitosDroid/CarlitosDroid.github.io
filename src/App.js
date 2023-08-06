@@ -7,7 +7,7 @@ import './style.css';
 
 import TopNavbar from './components/TopNavbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './components/Home2/Home';
+import Home from './components/Home/Home';
 
 
 function App() {
