@@ -7,7 +7,8 @@ import './style.css';
 
 import TopNavbar from './components/TopNavbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './components/Home/Home';
+import Home from './components/home/Home';
+import About from './components/about/About';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <TopNavbar />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
           <Route path='/resume' element={<Home />} />
         </Routes>
       </div>
