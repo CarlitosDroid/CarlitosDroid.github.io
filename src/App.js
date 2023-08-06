@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import TopNavbar from './components/TopNavbar';
 import Home from './components/Home/Home';
-import About from './components/nose/About';
+import About from './components/About/About';
 
 function App() {
   return (
