@@ -149,3 +149,65 @@ html {
         padding-top: 0 !important;
     }
 }
+
+/************/
+/***RESUME***/
+/************/
+
+.resume-section {
+    position: relative !important;
+    padding-top: 110px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    color: white !important;
+}
+
+.resume {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+
+
+/************/
+/***FOOTER***/
+/************/
+
+.footer {
+    background-color: rgb(10, 4, 22);
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important;
+}
+
+.footer-copywright {
+    text-align: center !important;
+}
+
+.footer-body {
+    text-align: center !important;
+}
+
+@media (max-width: 767px) {
+    .footer-copywright {
+        text-align: center !important;
+    }
+
+    .footer-body {
+        text-align: center !important;
+    }
+}
+
+.footer h3 {
+    font-size: 1em;
+    color: white !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+.footer-icons {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    padding: 0 !important;
+}
