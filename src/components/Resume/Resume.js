@@ -1,11 +1,14 @@
 import { Card, CardMedia } from "@mui/material";
 import { Button, Container, Row } from "react-bootstrap";
 import { AiOutlineDownload } from "react-icons/ai";
+import Particle from "../Particle";
 
 function Resume() {
     return (
         <div>
             <Container fluid className="resume-section">
+                <Particle />
+
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button
                         variant="primary"
