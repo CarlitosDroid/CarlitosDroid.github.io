@@ -14,7 +14,7 @@ function Footer() {
                     <h3>Designed and Developed by Carlos Vargas</h3>
                 </Col>
                 <Col md="4" className="footer-copywright">
-                    <h3>Copyright © {year} HM</h3>
+                    <h3>Copyright © {year} CV</h3>
                 </Col>
                 <Col md="4" className="footer-body">
                     <ul className="footer-icons">
@@ -28,7 +28,7 @@ function Footer() {
                                 <AiFillGithub />
                             </a>
                         </li>
-                        <li>
+                        <li className="social-icons">
                             <a
                                 href="https://twitter.com/Carlitos_Droid"
                                 style={{ color: "white" }}
@@ -38,7 +38,7 @@ function Footer() {
                                 <AiOutlineTwitter />
                             </a>
                         </li>
-                        <li>
+                        <li className="social-icons">
                             <a
                                 href="https://www.linkedin.com/in/carlitosdroid/"
                                 style={{ color: "white" }}
@@ -48,7 +48,7 @@ function Footer() {
                                 <FaLinkedinIn />
                             </a>
                         </li>
-                        <li>
+                        <li className="social-icons">
                             <a
                                 href="https://www.youtube.com/@carlitosdroid"
                                 style={{ color: "white" }}
