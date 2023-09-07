@@ -12,6 +12,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Footer from './components/Footer';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/projects' element={<Projects />} />
           <Route path='/resume' element={<Resume />} />
 
         </Routes>
