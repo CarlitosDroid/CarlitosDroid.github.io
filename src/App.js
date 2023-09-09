@@ -8,7 +8,7 @@ import './style.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import TopNavbar from './components/TopNavbar';
-import Home from './components/Home/Home';
+import HomeHeader from './components/Home/HomeHeader';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Footer from './components/Footer';
@@ -20,7 +20,7 @@ function App() {
       <div className="App">
         <TopNavbar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<HomeHeader />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/resume' element={<Resume />} />
