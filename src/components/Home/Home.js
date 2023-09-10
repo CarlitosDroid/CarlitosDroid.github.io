@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Tilt from "react-parallax-tilt";
 
 import homeProfile from "../../assets/home-profile.png"
 import Type from './Type';
@@ -7,7 +8,7 @@ import Particle from '../Particle';
 import HomeBody from './HomeBody';
 
 
-function HomeHeader() {
+function Home() {
     return (
         <section>
             <Container fluid className='home-section' id='home'>
@@ -38,11 +39,13 @@ function HomeHeader() {
                         </Col>
 
                         <Col md={5} style={{ paddingBottom: 20 }}>
-                            <img
-                                src={homeProfile}
-                                alt='home pic'
-                                className='img-fluid'
-                            />
+                            <Tilt>
+                                <img
+                                    src={homeProfile}
+                                    className='img-fluid'
+                                    alt='home pic'
+                                />
+                            </Tilt>
                         </Col>
                     </Row>
                 </Container>
@@ -54,4 +57,4 @@ function HomeHeader() {
     );
 }
 
-export default HomeHeader;
+export default Home;
