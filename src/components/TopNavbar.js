@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
 import { CgFileDocument } from "react-icons/cg"
 
-import logo from "../assets/logo_cd.png"
+import logo from "../assets/channel_logo.png"
 
 
 function TopNavbar() {
@@ -22,7 +22,9 @@ function TopNavbar() {
                 <Navbar.Brand href='/' className='d-flex'>
                     <img
                         src={logo}
-                        className='img-fluid logo' alt='brand' />
+                        className='img-fluid logo'
+                        alt='brand'
+                    />
                 </Navbar.Brand>
 
 
