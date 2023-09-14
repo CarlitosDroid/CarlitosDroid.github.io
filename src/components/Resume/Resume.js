@@ -12,7 +12,7 @@ function Resume() {
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button
                         variant="primary"
-                        href="https://drive.google.com/u/0/uc?id=1PzlUZk-DJZJG4TlSPd9IGMtT-OCrAiZd&export=download"
+                        href="https://drive.google.com/uc?id=1I1DUaSf45lDKWNMw7_5IX1u22MGCEMAX&export=download"
                         target="_blank"
                     >
                         <AiOutlineDownload />
@@ -26,7 +26,7 @@ function Resume() {
                             className="cardmedia"
                             component="iframe"
                             height="1056px"
-                            src="https://drive.google.com/file/d/1PzlUZk-DJZJG4TlSPd9IGMtT-OCrAiZd/preview"
+                            src="https://drive.google.com/file/d/1I1DUaSf45lDKWNMw7_5IX1u22MGCEMAX/preview"
                         />
                     </Card>
                 </Row>
@@ -34,7 +34,7 @@ function Resume() {
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button
                         variant="primary"
-                        href={"https://drive.google.com/u/0/uc?id=1PzlUZk-DJZJG4TlSPd9IGMtT-OCrAiZd&export=download"}
+                        href={"https://drive.google.com/uc?id=1I1DUaSf45lDKWNMw7_5IX1u22MGCEMAX&export=download"}
                         target="_blank"
                     >
                         <AiOutlineDownload />
